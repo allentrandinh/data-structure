@@ -3,6 +3,18 @@ class Node:
         self.data = data
         self.left = left
         self.right = right
+    def getVal(self):
+        return self.data
+    def setVal(self,data):
+        self.data = data
+    def setRight(self,right_node):
+        self.right = right_node
+    def setLeft(self, left_node):
+        self.left = left_node
+    def getRight(self):
+        return self.right
+    def getLeft(self):
+        return self.left
 
 def printInorder(root):
     if root:
